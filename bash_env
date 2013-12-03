@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export WORKON_HOME=$HOME/src/venv
+export EDITOR=/usr/bin/vim

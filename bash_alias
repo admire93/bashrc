@@ -1,0 +1,4 @@
+#!/bin/bash
+
+alias ack='ack-grep'
+alias ls='ls -FG --color'
