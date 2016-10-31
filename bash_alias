@@ -1,4 +1,10 @@
 #!/bin/bash
 
-alias ack='ack-grep'
-alias ls='ls -FG --color'
+alias ls='ls -FG'
+
+alias nvi='nvim'
+alias vi='nvim'
+alias vim='nvim'
+alias mvi='nvi'
+# http://homeonrails.com/2016/05/truecolor-in-gnome-terminal-tmux-and-neovim/
+alias tmux="env TERM=xterm-256color tmux"
