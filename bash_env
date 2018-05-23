@@ -1,4 +1,12 @@
 #!/bin/bash
 
-export WORKON_HOME=$HOME/src/venv
-export EDITOR=/usr/bin/vim
+export SRC_HOME="$HOME/src"
+export WORKON_HOME="$SRC_HOME/venv"
+export EDITOR="/usr/local/bin/nvim"
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export OAUTHLIB_INSECURE_TRANSPORT=1
+MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+
+export LC_ALL=en_US.UTF-8
